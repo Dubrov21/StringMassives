@@ -48,7 +48,7 @@ namespace StringMassives
         {
             Console.WriteLine("Hello World!");
 
-            Console.WriteLine("Enter massive elements number");
+            Console.WriteLine("Введите количество наборов символов");
             int elements = Convert.ToInt32(Console.ReadLine());
             string[] stringMassive = new string[elements];
             string[] Massive = array(stringMassive);
