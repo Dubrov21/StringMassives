@@ -8,7 +8,7 @@ namespace StringMassives
         {
             for(int i=0; i < stringMassive.Length; i++)
             {
-                Console.WriteLine($"Enter {i + 1} element of massive");
+                Console.WriteLine($"Введите {i + 1} набор символов");
                 stringMassive[i] = Console.ReadLine();
             }
             return stringMassive;
