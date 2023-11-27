@@ -40,7 +40,7 @@ namespace StringMassives
             Console.Write("[");
             for(int i = 0; i < stringMassive.Length; i++)
             {
-                Console.WriteLine($"'{stringMassive[i]}'");
+                Console.Write($"'{stringMassive[i]}'");
             }
             Console.Write("]");
         }
